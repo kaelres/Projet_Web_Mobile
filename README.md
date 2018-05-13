@@ -23,7 +23,7 @@ Afin de faire fonctionner l'application Web (et l'application Mobile) il est né
 La procédure d'installation vous demandera d'ouvrir le terminal et de vous placer dans le répertoire de l'application (`Web` ou `Mobile`) puis d'exécuter la commande suivante :
 
 ```
->npm install 
+npm install 
 ```
 
 Celle-ci installera toutes les dépendances indiquées par les fichiers angular comme étant requises.
@@ -88,6 +88,15 @@ node app.js
 ionic serve
 ```
 * Si l'application ne rencontre pas d'erreurs lors de son lancement elle sera disponible à l'adresse http://localhost au port 8100.
+
+## Depuis Visual Studio code
+
+* Installez les dépendances dans le dossier `Mobile` comme expliqué dans la partie _Dépendances_.
+* Ouvrir dans visual studio code le dossier `Mobile` puis allez dans la rubrique débuggueur (accessible avec le raccourci clavier `CTRL+MAJ+D`).
+* Dans la liste déroulante juste à côté du bouton _play_ vert, sélectionnez `Serve to the browser(ionic serve)`.
+* Appuyez sur le bouton _play_ vert.
+* Votre naviguateur devrait s'ouvrir et vous permettra l'accès à la page d'accueil de l'application mobile. Si ce n'est pas le cas vous pouvez aussi y accéder à l'adresse [http://localhost:8100](http://localhost:8100).
+
 
 
 
