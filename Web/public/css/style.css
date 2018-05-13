@@ -1,0 +1,74 @@
+
+
+body {
+    min-height: 100vh;
+    margin: 0%;
+}
+
+.barre {
+    text-decoration : line-through;
+}
+
+form input, form select {
+    max-width: 70%;
+    display: inline-block;
+}
+
+form label {
+   width: 25%;
+}
+
+.supprTask {
+    background: none;
+}
+
+.myWrapper {
+    background-image: url(/img/curved_wall.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.myDiv {
+    background-image: url(/img/board.png);
+    display: inline-block;
+    margin: 15%;
+    padding: 5%;
+    background-size: 100% 100%;
+}
+
+.supprTask {
+    background: none;
+}
+
+form input {
+    background: none;  
+}
+
+.topnav {
+    background-color: rgb(94, 146, 177);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: rgb(154, 157, 163);
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}

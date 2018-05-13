@@ -1,0 +1,39 @@
+
+
+<ion-view>
+    <ion-content>
+
+            <ion-nav-bar class = "bar-positive">
+                    <ion-nav-title>
+                       Enregistrement
+                    </ion-nav-title>
+                     
+                    <ion-nav-buttons side = "primary">
+                       <button class = "button" ui-sref="login" ui-sref-active="active">
+                          Connexion
+                       </button>
+                    </ion-nav-buttons>
+            </ion-nav-bar>
+
+            <div class="myWrapper">    
+                    <div class="myDiv">
+
+                <div class="container" ng-controller="registerCtrl">
+                    <form role="form" ng-submit="register(username, password, passwordConf)">
+                        <div class="form-group row" style="display: block">
+                            <span><label class="form" for="username">Nom : </label><input type="text" ng-model="username" class="col-md-9 form-control" placeholder="username" name="username"/></span>
+                            <span><label class="form" for=password>Mot de passe : </label><input type="password" ng-model="password" class="col-md-9 form-control" placeholder="password" name="password"/></span>
+                            <span><label class="form" for="passwordConf">Confirmer celui-ci : </label><input type="password" ng-model="passwordConf" class="col-md-9 form-control" placeholder="password" name="passwordConf"/></span>
+                            <span><input type="submit" value="S'enregistrer" class="col-md-3 form-control btn btn-primary" /></span>
+                        </div>
+                    </form>
+                </div>
+            </div></div>
+    </ion-content>
+</ion-view>
+
+    
+    
+    
+    
+    

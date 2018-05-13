@@ -1,0 +1,32 @@
+<div class="topnav" id="myTopnav">
+    <a href="" class="active">Todo List</a>    
+    <a href="" ng-click="logout()" ng-controller="loginCtrl">Déconnexion</a>
+</div>
+
+<div class="myWrapper">
+    <div class="myDiv">
+        <div class="container">
+            <form role="form" ng-submit="addTask()">
+                <h1>Ma Todo List !</h1>
+                <div class="form-group row">
+                    <input type="text" ng-model="taskName" placeholder="Tâche" class="col-md-9 form-control"/>
+                    <input type="submit" value="Ajouter" class="col-md-3 form-control btn btn-primary" />
+                </div>
+            </form>
+
+            <h3 class="display-5">Mes tâches : </h3> 
+
+            <div class="list-group">
+                <div ng-repeat="dt in taskSet" ng-class="{barre : dt.done}" > 
+                    <input type="checkbox"  ng-model="dt.done" ng-click="updateTask(dt)">
+                    <span ng-bind="dt.name"></span></span> <input type="button" value="X" ng-click="removeTask(dt)" class="supprTask"></br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

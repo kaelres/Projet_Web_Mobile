@@ -1,0 +1,29 @@
+<div class="topnav" id="myTopnav">
+    <a href="" class="active">Connexion</a>
+    <a ui-sref="register" ui-sref-active="active">Enregistrement</a>
+</div>
+<div class="myWrapper">
+    <div class="myDiv">
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Connexion</h1>
+                </div>
+        </div>
+        <br/><br/>
+        <div class="container">
+            <form role="form" ng-submit="login()">
+                <div class="form-group row">
+                    <label for="username">Nom : </label><input type="text" ng-model="username" placeholder="username" class="col-md-9 form-control" name="username"/><br/>
+                    <label for=password>Mot de passe : </label><input type="password" ng-model="password" placeholder="password" class="col-md-9 form-control" name="password"/><br/>
+                    <br/>
+                    <input type="submit" value="Se connecter" class="col-md-3 form-control btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+<ion-view>
+    <ion-content>
+
+            <ion-nav-bar class = "bar-positive">
+                    <ion-nav-title>
+                       Connexion
+                    </ion-nav-title>
+                     
+                    <ion-nav-buttons side = "primary">
+                       <button class = "button" ui-sref="register" ui-sref-active="active">
+                          Enregistrement
+                       </button>
+                    </ion-nav-buttons>
+            </ion-nav-bar>
+
+            <div class="myWrapper">    
+                    <div class="myDiv">
+            <div class="container" ng-controller="loginCtrl">
+                <form role="form" ng-submit="login()">
+                    <div class="form-group row" style="display: block">
+                        <span><label class="form" for="username">Nom : </label><input type="text" ng-model="username" class="col-md-9 form-control" placeholder="username" name="username"/></span>
+                        <span><label class="form" for=password>Mot de passe : </label><input type="password" ng-model="password" class="col-md-9 form-control" placeholder="password" name="password"/></span>
+                        <span><input type="submit" value="Se connecter" class="col-md-3 form-control btn btn-primary" /></span>
+                    </div>
+                </form>
+            </div>  
+            
+        </div>
+    </div>
+    </ion-content>
+</ion-view>

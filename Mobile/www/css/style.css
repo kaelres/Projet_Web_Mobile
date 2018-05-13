@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+.barre {
+    text-decoration : line-through;
+}
+
+.myWrapper {
+    background-image: url(/img/curved_wall.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.myDiv {
+    background-image: url(/img/board.png);
+    display: inline-block;
+    margin: 15%;
+    padding: 5%;
+    background-size: 100% 100%;
+}
+
+.supprTask {
+    background: none;
+}
+
+form input {
+      background: none;
+      
+}
+
+.form {
+    font-weight: bold;
+}
